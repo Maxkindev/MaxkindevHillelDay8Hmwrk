@@ -15,8 +15,11 @@ body {
 }
 
 .pop-up-layer {
-    max-width: 670px;
-    margin: 99px auto 98px;
+    position: absolute;
+    top: 99px;
+    left: 50%;
+    transform:translateX(-50%);
+    /* width: 670px; */
     box-shadow: 0 10px 60px rgba(219, 225, 237, 0.3);
     border-radius: 15px;
     background-color: #ffffff;
@@ -25,6 +28,7 @@ body {
 .button__close {
     margin-top: 32px;
     margin-left: 623px;
+    margin-right: 31px;
     /* default button padding: 1px 6px */
     padding: 0;
     border: none;
